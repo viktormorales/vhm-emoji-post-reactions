@@ -1,11 +1,6 @@
 # VHM EMOJI Post Reactions
-Contributors: viktormorales.
-Tags: emojis, emoji, reactions, feelbox, smileys
-Requires at least: 3.1
-Tested up to: 4.4.2
-Stable tag: 1.4
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Hola que tal.
+Mi nombre es victor
 
 Let users REACT to your post or pages with EMOJIS.
 
