@@ -1,6 +1,11 @@
 # VHM EMOJI Post Reactions
-Hola que tal.
-Mi nombre es victor
+Contributors: viktormorales.\
+Tags: emojis, emoji, reactions, feelbox, smileys\
+Requires at least: 3.1\
+Tested up to: 4.4.2\
+Stable tag: 1.4\
+License: GPLv2 or later\
+License URI: http://www.gnu.org/licenses/gpl-2.0.html\
 
 Let users REACT to your post or pages with EMOJIS.
 
@@ -26,7 +31,7 @@ Major features includes:
 3. "My shortcodes" tab in the Administration Panel.
 4. The button in the editor to quickly show the shortcode.
 
-== Changelog ==
+# Changelog
 
-= 1.1 =
+ 1.1 =
 *Release Date - 04 January, 2020*
