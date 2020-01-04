@@ -1,4 +1,4 @@
-# VHM EMOJI Post Reactions
+# VHM EMOJI Post Reactions.
 Contributors: viktormorales
 Tags: emojis, emoji, reactions, feelbox, smileys
 Requires at least: 3.1
