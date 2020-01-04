@@ -1,28 +1,37 @@
-# VHM Emoji Post Reactions.
+# VHM EMOJI Post Reactions
+Contributors: viktormorales
+Tags: emojis, emoji, reactions, feelbox, smileys
+Requires at least: 3.1
+Tested up to: 4.4.2
+Stable tag: 1.4
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-WordPress plugin to share content on the most popular platforms / applications
+Let users REACT to your post or pages with EMOJIS.
 
-<img style="width:100%" src="https://github.com/viktormorales/vhm-emoji-post-reactions/blob/master/screenshot.png">
+# Description
 
-## Setup
-* Download the [Master branch](https://github.com/viktormorales/vhm-emoji-post-reactions/archive/master.zip).
-* Extract the files from the ZIP.
-* Copy/Upload the folder into your *wp-content/plugins* WordPress folder
-* Activate the plugin and start working.
-* Go to *Settings > VHM Share Buttons* and add the buttons.
+An easy and straight to the point plugin to allow users to react to your post or pages with emojis.
 
-## Features
-* A very basic "Plugin Settings" (ready to add the buttons)
-* Facebook
-* Twitter
-* Google+
-* WhatsApp
-* Telegram
-* ... and the option to copy the link.
+Major features includes:
 
-## Author
-* Viktor H. Morales ([viktormorales.com](https://viktormorales.com))
-* Twitter: [@viktormorales](http://viktormorales.com)
+* Add as many reactions as you would like
+* Prevent users to react more than once.
 
-## License
-Released under the [MIT license](http://www.opensource.org/licenses/MIT).
+# Installation
+
+1. Upload the VHM EMOJI Post Reaction plugin to your plugins folder
+1. Activate the plugin
+1. Go to `Settings > VHM EMOJI Post Reaction` for further information
+
+# Screenshots
+
+1. "Usage" tab in the Administration Panel.
+2. "Shortcode generator" tab in the Administration Panel.
+3. "My shortcodes" tab in the Administration Panel.
+4. The button in the editor to quickly show the shortcode.
+
+== Changelog ==
+
+= 1.1 =
+*Release Date - 04 January, 2020*
