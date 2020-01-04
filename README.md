@@ -33,5 +33,5 @@ Major features includes:
 
 # Changelog
 
- 1.1 =
+## 1.1
 *Release Date - 04 January, 2020*
