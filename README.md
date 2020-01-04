@@ -1,6 +1,6 @@
 # VHM EMOJI Post Reactions
 
-**Contributors:** viktormorales [viktormorales.com](https://viktormorales.com)\
+**Contributors:** viktormorales ([viktormorales.com](https://viktormorales.com))\
 **Tags:** emojis, emoji, reactions, feelbox, smileys\
 **Requires at least:** 3.1\
 **Tested up to:** 4.4.2\
