@@ -1,0 +1,349 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VHM EMOJIONE Post Reactions\n"
+"POT-Creation-Date: 2016-04-01 17:55-0300\n"
+"PO-Revision-Date: 2016-04-01 17:56-0300\n"
+"Last-Translator: Viktor H. Morales <viktorhugomorales@gmail.com>\n"
+"Language-Team: viktormorales.com <viktorhugomorales@gmail.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../settings.php:2
+msgid "Let users to show their reactions on your pages or posts."
+msgstr "Permite a los usuarios mostrar sus reacciones en tus páginas o entradas"
+
+#: ../settings.php:4
+msgid "Shortcode was successfully CREATED."
+msgstr "Shortcode CREADO!"
+
+#: ../settings.php:6
+msgid "Shortcode was NOT CREATED."
+msgstr "Error al CREAR shortcode."
+
+#: ../settings.php:8
+msgid "Shortcode was successfully DELETED."
+msgstr "Shortcode ELIMINADO"
+
+#: ../settings.php:9
+msgid "Configuration"
+msgstr "Configuración"
+
+#: ../settings.php:9
+msgid "Title"
+msgstr "Título"
+
+#: ../settings.php:9
+msgid "HTML allowed"
+msgstr "Puedes utilizar código HTML"
+
+#: ../settings.php:9
+msgid "Reactions"
+msgstr "Reacciones"
+
+#: ../settings.php:9
+#, php-format
+msgid "Click the %s button"
+msgstr "Click en el botón %s"
+
+#: ../settings.php:9
+#, php-format
+msgid "Label your EMOJI into the %s (eg.: %s)"
+msgstr "Etiqueta tu EMOJI en el %s (ej.: %s)"
+
+#: ../settings.php:9
+#, php-format
+msgid "Go to %s and click and EMOJI to copy the shortcut to your clipboard (eg.: %s)"
+msgstr "Ve a %s y haz click en un EMOJI para copiar su código (eg.: %s)"
+
+#: ../settings.php:9
+#, php-format
+msgid "Paste it into the %s"
+msgstr "Pega el código copiado en %s"
+
+#: ../settings.php:9
+msgid "Save changes."
+msgstr "Guardar cambios"
+
+#: ../settings.php:9
+msgid "Add new reaction"
+msgstr "Agregar nueva rección"
+
+#: ../settings.php:13 ../settings.php:19
+msgid "Label"
+msgstr "Etiqueta"
+
+#: ../settings.php:14 ../settings.php:19
+msgid "Emoji code"
+msgstr "Código EMOJI"
+
+#: ../settings.php:23
+msgid "Remove reaction"
+msgstr "Quitar reacción"
+
+#: ../settings.php:27
+msgid "Reset"
+msgstr "Reiniciar"
+
+#: ../settings.php:28
+msgid "About"
+msgstr "Acerca"
+
+#: ../settings.php:28
+msgid "Plugin developed by graphic and web designer"
+msgstr "Plugin desarrollado por el diseñador gráfico y web"
+
+#: ../settings.php:28
+msgid "Need support? Don't waste your precious time, HIRE ME!"
+msgstr "¿Necesitas ayuda? No pierdas tu preciado tiempo, ¡CONTRATAME!"
+
+#: ../settings.php:28
+msgid "Feeling generous? Buy me a beer (is good for motivation)."
+msgstr "¿Te sientes generoso? Comprame una cerveza (es bueno para la motivación)"
+
+#: ../settings.php:29
+msgid "This is me around the cloud"
+msgstr "También ando por las nubes"
+
+#: ../vhm-emojione-post-reactions.php:54
+msgid "Loading VHM EMOJIONE Post Reactions..."
+msgstr "Cargando VHM EMOJIONE Post Reactions..."
+
+#: ../vhm-emojione-post-reactions.php:55
+msgid "Sending reaction. Please wait..."
+msgstr "Enviando reacción. Por favor espere..."
+
+#: ../vhm-emojione-post-reactions.php:132
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes suficientes permisos para acceder a esta página."
+
+#: ../vhm-emojione-post-reactions.php:290
+msgid "I've found this post..."
+msgstr "Este artículo me pareció..."
+
+#: ../vhm-emojione-post-reactions.php:292
+msgid "Love it!"
+msgstr "Grandioso!"
+
+#: ../vhm-emojione-post-reactions.php:293
+msgid "Fine"
+msgstr "Bueno"
+
+#: ../vhm-emojione-post-reactions.php:294
+msgid "Mmmmh..."
+msgstr "Mmmmh..."
+
+#: ../vhm-emojione-post-reactions.php:295
+msgid "Boring!"
+msgstr "Aburrido!"
+
+#: ../vhm-emojione-post-reactions.php:296
+msgid "No comments..."
+msgstr "Sin comentarios..."
+
+#~ msgid "Description"
+#~ msgstr "Descripción"
+
+#~ msgid "Usage"
+#~ msgstr "Uso"
+
+#~ msgid "Shortcode Generator"
+#~ msgstr "Generador"
+
+#~ msgid "My shortcodes"
+#~ msgstr "Mis shortcodes"
+
+#~ msgid "Use this form to generate a shortcode to paste into your pages, posts or widget text."
+#~ msgstr "Genere shortcodes utilizando este formulario para pegarlo en sus páginas, entradas o widgets de texto."
+
+#~ msgid "Title of the shortcode"
+#~ msgstr "Título del shortcode"
+
+#~ msgid "Source"
+#~ msgstr "Recurso"
+
+#~ msgid "Post/Page"
+#~ msgstr "Página/Entrada"
+
+#~ msgid "Category"
+#~ msgstr "Categoría"
+
+#~ msgid "User comment"
+#~ msgstr "Comentario"
+
+#~ msgid "Choose the source of the comments to show"
+#~ msgstr "Elija el recurso de donde mostrará el/los comentario/s"
+
+#~ msgid "ID of the source"
+#~ msgstr "ID del recurso."
+
+#~ msgid "Insert the ID of the page, post, category, tag or user comment."
+#~ msgstr "Ingrese el ID de la página, entrada, categoría, etiqueta o comentario."
+
+#~ msgid "Number of comments to show"
+#~ msgstr "Cantidad de comentarios a mostrar"
+
+#~ msgid "%s to hide the comments"
+#~ msgstr "%s para ocultar los comentarios"
+
+#~ msgid "Order by"
+#~ msgstr "Ordenar"
+
+#~ msgid "Descendant"
+#~ msgstr "Descendente"
+
+#~ msgid "Ascendant"
+#~ msgstr "Ascendente"
+
+#~ msgid "Random"
+#~ msgstr "Al azar"
+
+#~ msgid "Choose how the comments should be ordered"
+#~ msgstr "Elige el orden en que se mostrarán los comentarios"
+
+#~ msgid "Before items"
+#~ msgstr "Antes de los items"
+
+#~ msgid "Add any content BEFORE displaying the comments"
+#~ msgstr "Agrega cualquier contenido ANTES de mostrar los comentarios"
+
+#~ msgid "Template"
+#~ msgstr "Plantilla"
+
+#~ msgid "in"
+#~ msgstr "en"
+
+#~ msgid "Variables"
+#~ msgstr "Variables"
+
+#~ msgid "%COMMENT% is the comment"
+#~ msgstr "%COMMENT% es el contenido del comentario"
+
+#~ msgid "%URL% is the URL provided by the author of the comment"
+#~ msgstr "%URL% es la URL provista por el autor del comentario"
+
+#~ msgid "%AUTHOR% is the name of the author of the comment"
+#~ msgstr "%AUTHOR% es el nombre del autor del comentario"
+
+#~ msgid "%POST_TITLE% is the title of the post where the user left the comment"
+#~ msgstr "%POST_TITLE% es el título de la entrada donde el usuario dejó el comentario"
+
+#~ msgid "%POST_URL% is the URL of the post where the user left the comment"
+#~ msgstr "%POST_URL% es la URL de la entrada donde el usuario dejó el comentario"
+
+#~ msgid "After items"
+#~ msgstr "Después de los items"
+
+#~ msgid "Add any content AFTER displaying the comments"
+#~ msgstr "Agregue cualquier contenido DESPUES de mostrar los comentarios"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Shortcode Title"
+#~ msgstr "Titulo del shortcode"
+
+#~ msgid "Shortcode"
+#~ msgstr "Shortcode"
+
+#~ msgid "Move this item to the Trash"
+#~ msgstr "Eliminar este item"
+
+#~ msgid "Trash"
+#~ msgstr "Eliminar"
+
+#~ msgid "Get a list of comments (or a single comment providing its ID) and show them on a page, post or sidebar using a shortcode or a PHP code."
+#~ msgstr "Obtiene una lista de comentarios (o un solo comentario si expecificas su ID) y los muestra en una página, entrada o barra lateral usando un shortcode o un código en PHP."
+
+#~ msgid "Generate a code from the %s tab"
+#~ msgstr "Generar un código desde la pestaña %s"
+
+#~ msgid "Copy and paste the shortcode into your pages, posts or text widget."
+#~ msgstr "Copia y pega el shortcode en tus páginas, entradas o widget de texto."
+
+#~ msgid "Parameters and examples"
+#~ msgstr "Parámetros y ejemplos"
+
+#~ msgid "Option"
+#~ msgstr "Opción"
+
+#~ msgid "Example"
+#~ msgstr "Ejemplo"
+
+#~ msgid "Default: %s"
+#~ msgstr "Por defecto: %s"
+
+#~ msgid "The ID of the generated shortcode"
+#~ msgstr "El ID del shortcode generado"
+
+#~ msgid "Settings"
+#~ msgstr "Opciones"
+
+#~ msgid "General settings"
+#~ msgstr "Opciones generales"
+
+#~ msgid "Copy and paste the following shortcode directly into the post, page or sidebar (widget) where you would like to show the comments:"
+#~ msgstr "Copia y pega el siguiente shortcode directo en la página, entrada o barra lateral (widget) donde quieras mostrar los comentarios:"
+
+#~ msgid "Or copy and paste the following PHP code on your templates files:"
+#~ msgstr "O copia y pega el siguiente código PHP en el archivo de tu plantilla:"
+
+#~ msgid "The number of the comments to show"
+#~ msgstr "El número de comentarios a mostrar"
+
+#~ msgid "Values:"
+#~ msgstr "Valores:"
+
+#~ msgid "The order of how you'd like to show the comments"
+#~ msgstr "El orden en como deseas mostrar los comentarios"
+
+#~ msgid "The ID of the comment you'd like to fetch"
+#~ msgstr "El ID del comentario que deseas mostrar"
+
+#~ msgid "The ID of the post you'd like to fetch the comments"
+#~ msgstr "El ID de la entrada que quieras mostrar"
+
+#~ msgid "The ID of the category or tag you'd like to fetch the comments"
+#~ msgstr "El ID de la categoria o etiqueta de los cuales quieras mostrar los comentarios"
+
+#~ msgid "Retrieve a list of comments or a comment data given a comment ID."
+#~ msgstr "Obtiene una lista de comentarios o la información de un comentario según el ID."
+
+#~ msgid "Use the shortcode %s in the content of the pages, posts or text widgets;"
+#~ msgstr "Utilice el shortcode %s en el contenido de sus páginas, entradas o textos de widgets;"
+
+#~ msgid "or use the PHP code %s in your template."
+#~ msgstr "o utilice el código PHP %s en su plantilla."
+
+#~ msgid "Parameters"
+#~ msgstr "Parámetros"
+
+#~ msgid "Examples"
+#~ msgstr "Ejemplos"
+
+#~ msgid "Show the last 3 comments:"
+#~ msgstr "Muestra los últimos 3 comentarios:"
+
+#~ msgid "Show the comment with the ID 1:"
+#~ msgstr "Mostrar el comentario con el ID 1"
+
+#~ msgid "Show 3 comments from the post with the ID 2:"
+#~ msgstr "Mostrar 3 comentarios de la entrada con el ID 2:"
+
+#~ msgid "Show the comment with the ID number 1:"
+#~ msgstr "Muestra el comentario con el ID 1"
+
+#~ msgid "Show the comment with the ID number 1"
+#~ msgstr "Muestra el comentario con el ID 1:"
+
+#~ msgid "How to use"
+#~ msgstr "Uso"
+
+#~ msgid "How to use it"
+#~ msgstr "Como usarlo"
