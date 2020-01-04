@@ -1,4 +1,4 @@
-# VHM Emoji Post Reactions
+# VHM Emoji Post Reactions.
 
 WordPress plugin to share content on the most popular platforms / applications
 
