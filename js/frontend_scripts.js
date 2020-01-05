@@ -1,5 +1,4 @@
 jQuery(document).ready(function() {
-		
 	var reaction_box = jQuery('#vhm-emoji-post-reactions-box');
 	var original;
 	var converted;
@@ -19,8 +18,8 @@ jQuery(document).ready(function() {
 			}
 		}).done(function(){
 			jQuery('.vhm-emoji-post-reactions-code').each(function() {
-				original = jQuery(this).html();
-				converted = emoji.shortnameToImage(original);
+				//original = jQuery(this).html();
+				//converted = emoji.shortnameToImage(original);
 				jQuery(this).html(converted);
 			});
 		});
@@ -28,6 +27,8 @@ jQuery(document).ready(function() {
 	load_reactions_box();
 	
 	// Vote action
+	var item;
+	var item_voted;
 	jQuery('#vhm-emoji-post-reactions-box ol.vote li').live('click', function(e){
 		item = jQuery(this);
 		item_voted = item.data('vhm_emoji_vote_id');
@@ -43,6 +44,7 @@ jQuery(document).ready(function() {
 				data: "action=vote&item_voted="+item_voted+"&post_id="+vhm_emoji_var.post_id+"&nonce="+vhm_emoji_var.nonce,
 				success: function(json){
 					load_reactions_box();
+					console.log(json);
 				},
 				error: function(json)
 				{
