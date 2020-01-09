@@ -27,13 +27,6 @@ Major features includes:
 1. Activate the plugin
 1. Go to `Settings > VHM EMOJI Post Reaction` for further information
 
-## Screenshots
-
-1. "Usage" tab in the Administration Panel.
-2. "Shortcode generator" tab in the Administration Panel.
-3. "My shortcodes" tab in the Administration Panel.
-4. The button in the editor to quickly show the shortcode.
-
 ## Changelog
 
 ### 1.1
