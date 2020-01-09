@@ -36,7 +36,7 @@
 			<ol>
 				<li><?php printf(__('Click the %s button.', TEXTDOMAIN), '<code>Add new reaction</code>' );?></li>
 				<li><?php printf(__('Label your EMOJI into the %s (eg.: %s).', TEXTDOMAIN), '<code>Label field text</code>', '<code>Loved it!</code>');?></li>
-				<li><?php printf(__('Go to %s, select and copy the EMOJI you want to use.', TEXTDOMAIN), '<a href="https://getemoji.com/" target="_blank">getemoji.com</a>'); ?></li>
+				<li><?php _e('Select or upload the EMOJI you want to use.', TEXTDOMAIN); ?></li>
 				<li><?php printf(__('Paste it into the %s', TEXTDOMAIN), '<code>Emoji field text</code>');?></li>
 				<li><?php _e('Save changes.', TEXTDOMAIN);?></li>
 			</ol>
