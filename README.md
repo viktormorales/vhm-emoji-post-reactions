@@ -2,6 +2,8 @@
 
 <img style="width:100%" src="https://github.com/viktormorales/vhm-emoji-post-reactions/blob/master/screenshot.png">
 
+*As seen in iru.mv*
+
 **Author:** viktormorales ([viktormorales.com](https://viktormorales.com))\
 **Tags:** emojis, emoji, reactions, feelbox, smileys\
 **Requires at least:** 3.1\
