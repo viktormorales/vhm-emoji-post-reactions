@@ -1,50 +1,29 @@
 jQuery(document).ready(function() {
-	var reaction_box = jQuery('#vhm-emoji-post-reactions-box');
-	var original;
-	var converted;
-	function load_reactions_box()
-	{
-		jQuery.ajax({
-			type: "post",
-			dataType: "html",
-			url: vhm_emoji_var.ajax_url,
-			data: "action=load_reactions_box&post_id="+vhm_emoji_var.post_id+"&nonce="+vhm_emoji_var.nonce,
-			success: function(output){
-				reaction_box.html(output);
-			},
-			error: function(result)
-			{
-				console.log(result);
-			}
-		}).done(function(){
-			jQuery('.vhm-emoji-post-reactions-code').each(function() {
-				//original = jQuery(this).html();
-				//converted = emoji.shortnameToImage(original);
-				jQuery(this).html(converted);
-			});
-		});
-	}
-	load_reactions_box();
 	
-	// Vote action
+	var reaction_box;
 	var item;
 	var item_voted;
-	jQuery('#vhm-emoji-post-reactions-box ol.vote li').live('click', function(e){
+	
+	// Vote action
+	jQuery('.vhm-emoji-post-reactions-box ol.vote li').live('click', function(e){
 		item = jQuery(this);
+		post_id = item.parent().parent().data('post');
 		item_voted = item.data('vhm_emoji_vote_id');
+		// Sending reaction text
+		reaction_box = item.closest('.vhm-emoji-post-reactions-box');
 		reaction_box.html(vhm_emoji_var.sending_text);
 		
-		if (vhm_emoji_var.post_id)
+		if (post_id)
 		{
-			// realiza la carga
+			// send "vote" information
 			jQuery.ajax({
 				type: "post",
-				dataType: "json",
+				dataType: "html",
 				url: vhm_emoji_var.ajax_url,
-				data: "action=vote&item_voted="+item_voted+"&post_id="+vhm_emoji_var.post_id+"&nonce="+vhm_emoji_var.nonce,
-				success: function(json){
-					load_reactions_box();
-					console.log(json);
+				data: "action=vote&item_voted="+item_voted+"&post_id="+post_id+"&nonce="+vhm_emoji_var.nonce,
+				success: function(output){
+					// Reload the reactions box
+					reaction_box.html(output)
 				},
 				error: function(json)
 				{
@@ -53,5 +32,4 @@ jQuery(document).ready(function() {
 			});
 		}
 	});
-	
 });

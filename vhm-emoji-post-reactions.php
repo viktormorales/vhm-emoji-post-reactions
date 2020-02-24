@@ -71,8 +71,8 @@ if(!class_exists('VHM_Emoji_Post_Reactions'))
 			add_action( 'wp_ajax_nopriv_vote', array(&$this, 'vote') );
 			add_action( 'wp_ajax_vote', array(&$this, 'vote') );
 			
-			add_action( 'wp_ajax_nopriv_load_reactions_box', array(&$this, 'load_reactions_box') );
-			add_action( 'wp_ajax_load_reactions_box', array(&$this, 'load_reactions_box') );
+			//add_action( 'wp_ajax_nopriv_load_reactions_box', array(&$this, 'load_reactions_box') );
+			//add_action( 'wp_ajax_load_reactions_box', array(&$this, 'load_reactions_box') );
 
         } // END public function __construct
 
@@ -172,17 +172,16 @@ if(!class_exists('VHM_Emoji_Post_Reactions'))
 			wp_enqueue_style("vhm_emoji_post_reactions_frontend_css", plugins_url('/style.css', __FILE__));
 			echo "
 				<style>
-					#vhm-emoji-post-reactions-box ol li { width: " . $this->reaction_box_width . "%; display:inline-block; vertical-align:middle; }
+					.vhm-emoji-post-reactions-box ol li { width: " . $this->reaction_box_width . "%; display:inline-block; vertical-align:middle; }
 				</style>
 			";
 		}
 		
 		public function the_content($content)
 		{
-			if (is_single())
-			{
-				$return = '<div id="vhm-emoji-post-reactions-box">' . $this->loading_text . '</div>';
-			}
+			$return = '<div class="vhm-emoji-post-reactions-box" data-post="' . get_the_ID() . '">';
+			$return .= $this->load_reactions_box();
+			$return .= '</div>';
 			return $content . $return;
 		}
 		
@@ -193,13 +192,11 @@ if(!class_exists('VHM_Emoji_Post_Reactions'))
 			if ($_POST)
 				extract($_POST);
 			
-			$output['status'] = 'error';
-			$output['message'] = 'Ya votaste!';
 			// Check if IP already react to this POST
-			
 			$get_voters = (array)get_post_meta($post_id, '_vhm_emoji_post_reactions_voters', true);
 			if (!in_array($this->get_user_ip(), (array)$get_voters))	
 			{
+				// If IP hadn't react, continue...
 				if (isset($this->options['reactions'][$item_voted]))
 				{
 					// Update the post meta
@@ -210,19 +207,20 @@ if(!class_exists('VHM_Emoji_Post_Reactions'))
 					// Update voters list
 					$get_voters[] = $this->get_user_ip();
 					update_post_meta($post_id, '_vhm_emoji_post_reactions_voters', $get_voters);
-					
-					$output['status'] = 'OK';				
-					$output['message'] = 'Votado!';
 				}
 			}
 			
-			echo json_encode($output);
+			echo $this->load_reactions_box();
+			
 			exit;
 		}
 		
 		public function load_reactions_box()
 		{
-			$post_id = $_POST['post_id']; // Get POST ID
+			$post_id = get_the_ID();
+			if ($_POST)
+				$post_id = $_POST['post_id']; // Get POST ID
+			
 			$this->count_reactions = count($this->options['reactions']); // Count reactions
 			// If the admin has defined reactions, let's show the box
 			if ($this->count_reactions > 0) {
@@ -254,7 +252,8 @@ if(!class_exists('VHM_Emoji_Post_Reactions'))
 				} 
 				$return .= '</ol>';
 			}
-			echo $return;
+
+			return $return;
 			exit;
 		}
 		

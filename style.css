@@ -1,11 +1,11 @@
-#vhm-emoji-post-reactions-box { position: relative; white-space: nowrap;}
-#vhm-emoji-post-reactions-box ol { width: 100% !important; margin: 0; }
-#vhm-emoji-post-reactions-box ol li { margin: 0; }
-#vhm-emoji-post-reactions-box ol.vote li { cursor: pointer; }
-#vhm-emoji-post-reactions-box ol.voted li { cursor: default; }
-#vhm-emoji-post-reactions-box ol li .vhm-emoji-post-reactions-cell { text-align: center !important; }
-#vhm-emoji-post-reactions-box ol li .vhm-emoji-post-reactions-code img { display: inline-block; width: 30%; }
-#vhm-emoji-post-reactions-box ol.vote li:hover { 
+.vhm-emoji-post-reactions-box { position: relative; white-space: nowrap;}
+.vhm-emoji-post-reactions-box ol { width: 100% !important; margin: 0; }
+.vhm-emoji-post-reactions-box ol li { margin: 0; }
+.vhm-emoji-post-reactions-box ol.vote li { cursor: pointer; }
+.vhm-emoji-post-reactions-box ol.voted li { cursor: default; }
+.vhm-emoji-post-reactions-box ol li .vhm-emoji-post-reactions-cell { text-align: center !important; }
+.vhm-emoji-post-reactions-box ol li .vhm-emoji-post-reactions-code img { display: inline-block; width: 30%; }
+.vhm-emoji-post-reactions-box ol.vote li:hover { 
 	transform: scale(1.2);
 	-webkit-transform: scale(1.2);
 	-moz-transform: scale(1.2);
@@ -13,5 +13,5 @@
 	transition: transform .2s;
 }
 @media (max-width: 768px) {
-	#vhm-emoji-post-reactions-box ol li .vhm-emoji-post-reactions-code { font-size: 1em; }
+	.vhm-emoji-post-reactions-box ol li .vhm-emoji-post-reactions-code { font-size: 1em; }
 }
