@@ -247,7 +247,7 @@ if(!class_exists('VHM_Emoji_Post_Reactions'))
 					$percent = ($total_reactions) ? round($get_post_reaction * 100 / $total_reactions, 2) : 0 ;
 					
 					$return .= '<li data-vhm_emoji_vote_id="' . $k . '"><div class="vhm-emoji-post-reactions-cell">';
-					$return .= '<span class="vhm-emoji-post-reactions-code"><img src="' . $reaction['code'] . '"></span><p><span class="vhm-emoji-post-reactions-label">' . $reaction['label'] . '</span><br><span class="vhm-emoji-post-reactions-percent">' . $percent . '%</span>';
+					$return .= '<span class="vhm-emoji-post-reactions-code"><img src="' . $reaction['code'] . '"></span><br><span class="vhm-emoji-post-reactions-label">' . $reaction['label'] . '</span><br><span class="vhm-emoji-post-reactions-percent">' . $percent . '%</span>';
 					$return .= '</div></li>';
 				} 
 				$return .= '</ol>';
