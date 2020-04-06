@@ -66,7 +66,7 @@ if(!class_exists('VHM_Emoji_Post_Reactions'))
 			add_action( 'admin_enqueue_scripts', array(&$this, 'admin_enqueue_scripts') );
 			add_action( 'wp_enqueue_scripts', array(&$this, 'frontend_enqueue_scripts') );
 			
-			add_filter( 'the_content', array(&$this, 'the_content'), 100 );
+			add_filter( 'the_content', array(&$this, 'the_content'));
 			
 			add_action( 'wp_ajax_nopriv_vote', array(&$this, 'vote') );
 			add_action( 'wp_ajax_vote', array(&$this, 'vote') );
@@ -182,6 +182,7 @@ if(!class_exists('VHM_Emoji_Post_Reactions'))
 			$return = '<div class="vhm-emoji-post-reactions-box" data-post="' . get_the_ID() . '">';
 			$return .= $this->load_reactions_box();
 			$return .= '</div>';
+
 			return $content . $return;
 		}
 		
